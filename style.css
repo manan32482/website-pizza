@@ -1,0 +1,44 @@
+h1{
+  font-size: 50px;
+  color:rgb(212, 219, 103);
+}
+h2{
+  font-size: 3rem;
+  font-weight: 500px;
+  color: rgba(151, 54, 54, 0.952);
+}
+h3{
+  color:rgba(89, 115, 141, 0.959);
+}
+p{
+  font-size: 50px;
+  color:rgba(247, 37, 37, 0.932);
+}
+.text{
+  color: rgba(140, 161, 163, 0.925);
+  text-align: center;
+  stroke-opacity: unset;
+  color: rgb(226, 120, 216);
+  margin-top: 40px;
+}
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+}
+.text{
+  text-align: center;
+font-size: 200px;
+color: aquamarine;
+font-size: xx-large;
+}
+.menu{
+font-size: xx-large;
+color: rgb(98, 119, 158);
+}
+#about{
+  color: aquamarine;
+  font-size: xx-large;
+}
