@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body style="background-image:url(PICC1.PNG);">
+  <div style="position: sticky ;">
+        <a href="#">Home</a>
+        <a href="#menu">menu</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+  
+        <div> <h1 style="margin: 100px;font-size: 100px; color: aqua;"  class="text">THIN <br> CRUST PIZZA</h1> 
+           <h2 style="margin-top: 350px;font-size: 50px; color: aqua;" class="text">LET ME SEE</h2> <h2 style="color: aqua;" class="text"> THE MENU</h2> 
+         </div>
+      </div>
+    </div>
+
+      <div id="menu" style=" text-align: center;">
+        <h1 style="margin: 200px;" >PIZZA</h1>
+<h1 style="margin: 300px;" >SALAD</h1> 
+<h1  style="margin: 100px;">STARTER</h1>
+      </div>
+
+      <div id="about">
+        <h2 style="font-size: 70px;" class="text">About</h2> 
+        <h2 style="font-size: 50px;" class="text">The Chef</h2>
+      <p style="font-size: 20px;" class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ad,<br> alias molestias suscipit illo accusamus earum officia recusandae eligendi nesciunt ut et a odit at assumenda cumque quis laboriosam architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Laboriosam at ipsam sed molestiae explicabo dolore, iure asperiores dolorem eligendi, nemo rem placeat vero eaque soluta voluptatum pariatur hic aut libero.</p>
+    <h1 style="color:aqua;" class="text">Opening Hours</h1>
+    <p style="margin-left: 110px;" class="text">Monday & Tuesday Closed</p>
+    <p class="text">wed 24 hourse</p>
+     <p class="text">thursday 12 to 7Am</p>
+    <p class="text"> friday 9 to 12pm</p>
+      </div>
+
+      <div id="contact">
+       <h1 
+       style="margin-left: 150px; font-size: 100px; color: aqua; margin-top: 400px; margin-bottom: 300px;"
+        class="text">Contact
+        </h1>
+        <p 
+        style="margin-left: 50px; font-size: 30px; color: bisque; margin-top: 200px;">
+            find us at some address at some place or call us at 05050515-122330 <br> FYI! WE offer full-service catering for any event,large or small<br>Reserve a tabel,ask for today's special or just send us a message:</b>
+        </p>
+        <form> 
+            <form>
+             First Name: <br> <input type="text" placeholder="First-name" required> <br>
+             Last Name: <br> <input type="text" placeholder="Last-name" required> <br> 
+             Persons: <br> <input type="text" placeholder="Total Persons" required> <br> 
+             Mob Number: <br> <input type="tel" id="phone" name="phone" placeholder="051-341063-7" pattern="[0-9]{3}-[0-9]{6}-[0-9]{1}" required>
+             <small>Format: 051-341063-7</small><br><br>
+             Date: <br> <input type="date" placeholder="DD//MM//YYYY" required> <br>
+             Message: <br> <input type="text" cols="30" rows="5" placeholder="Special Requirments" required> <br>
+             <input type="submit" value="Submit">
+
+             
+            </form>
+          </form>
+      </div>
+        </body>
+</html>
