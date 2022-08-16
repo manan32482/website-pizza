@@ -1,0 +1,69 @@
+<?php
+
+$servername='localhost';
+$username='root';
+$password='';
+$dbname = "mysql";
+$conn=mysqli_connect($servername,$username,$password,$dbname);
+if(!$conn){
+   die('Could not Connect My Sql:' .mysql_error());
+}
+
+   if(isset($_POST['submit'])) 
+   {
+
+$name = $_POST ['Std_Name'];
+$add = $_POST ['Std_Add'];
+$age = $_POST ['Std_age'];
+echo $insertquery = "INSERT INTO `student_tab`(`Std_Name`,
+ `Std_Add`, `Std_Age`) VALUES ('$name','$add','$age')";
+
+
+if (mysqli_query($conn, $insertquery)) {
+echo "Data Inserted";
+}
+else
+{
+
+echo "Data not inserted";
+
+}
+}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="form.css">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <title></title>
+</head>
+<body>
+<div class="container">
+   <div class="header">
+      <h2>Create Account</h2>
+   </div>
+   <form id="form" class="form" action="" method="post">
+   
+      <div class="form-control">
+         <label for="username">Std_Name</label>
+         <input type="text" placeholder="Password" name="Std_Name" id="password"/>
+      </div>
+      <div class="form-control">
+         <label for="username">Std_Add </label>
+         <input type="text" placeholder="Password" name="Std_Add" id="password2"/>
+      </div>
+      <div class="form-control">
+         <label for="username">Std_age </label>
+         <input type="text" placeholder="Password" name="Std_age" id="password2"/>
+      </div>
+      <button type="submit" name="submit">Submit</button>
+   </form>
+</div>
+
+</body>
+</html>
+
+
